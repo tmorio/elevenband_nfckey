@@ -5,6 +5,8 @@ NFCチップでも可能です。
 動作には以下のライブラリが必要です。  
 ・nfcpy  
   
+nfcpyについては次をご覧下さい。[nfcpy/nfcpy](https://github.com/nfcpy/nfcpy)  
+    
 インストールを行うにはコンソール上(端末)で  
 `brew install libusb`
 `pip install nfcpy`
