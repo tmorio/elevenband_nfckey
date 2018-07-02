@@ -1,7 +1,7 @@
 require 'time'
 
-DB = {"ElevenBand-Raimon" => "XXXXXXXXXXXXXXX",
-        "ElevenLisence_InamoriAsuto" => "XXXXXXXXXXXX" }
+DB = {"YourName1" => "XXXXXXXXXXXXXXX",
+        "YourName2" => "XXXXXXXXXXXXXXX" }
 
 def cardload()
     `sudo python cardload.py`
