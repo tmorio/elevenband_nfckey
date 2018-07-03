@@ -15,7 +15,7 @@ nfcpyについては次をご覧下さい。[nfcpy/nfcpy](https://github.com/nfc
   
 使用を開始する前に、カードの情報を登録する必要があります。  
 ## イレブンバンド、イレブンライセンスなどのType2規格のチップを用いる場合
-1.cardload.pyをsudo権限で実行し、カードリーダーにイレブンバンド(NFCチップ)をかざしてください。  
+1.cardload.pyをroot権限で実行し、カードリーダーにイレブンバンド(NFCチップ)をかざしてください。  
 2.ID=XXXXXXXXXXXXXのXの部分をメモしてください。  
 3.system.rbファイルを開き、「YourName1」にログに記録する名前、XXXXの部分に先程メモしたコードを正しく入れ、保存してください。  
 例:記録する名前がAsuto Inamori、XXXXの部分が0123456789ABCDEFの場合  
@@ -26,7 +26,7 @@ nfcpyについては次をご覧下さい。[nfcpy/nfcpy](https://github.com/nfc
 4.以上でカード情報の登録は必要です。  
   
 ## Felica(交通系ICカードなど)を用いる場合
-1.felicaload.pyをsudo権限で実行し、カードリーダーにカードをかざしてください。  
+1.felicaload.pyをroot権限で実行し、カードリーダーにカードをかざしてください。  
 2.Type2規格と同じようにカードの登録を行ってください。  
 3.system.rbの7行目にある「cardload.py」を「felicaload.py」に変更し保存してください。  
   
