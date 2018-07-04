@@ -8,7 +8,7 @@ NFCチップでも可能です。
 nfcpyについては次をご覧下さい。[nfcpy/nfcpy](https://github.com/nfcpy/nfcpy)  
     
 インストールを行うにはコンソール上(端末)で  
-`brew install libusb`
+`apt install python-usb`
 `pip install nfcpy`
   
 この2つのコマンドを実行することでインストールが行えます。  
