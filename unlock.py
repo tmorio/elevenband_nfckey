@@ -6,7 +6,6 @@ pwmgpio = 4
 GPIO.setup(pwmgpio, GPIO.OUT)
 servoctl = GPIO.PWM(pwmgpio, 50)
 servoctl.start(0.0)
-for i in range(1):
-	servoctl.ChangeDutyCycle(8)
-	time.sleep(0.5)
+servoctl.ChangeDutyCycle(8)
+time.sleep(0.5)
 GPIO.cleanup()
