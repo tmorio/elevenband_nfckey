@@ -8,6 +8,7 @@
   
 動作には以下のライブラリが必要です。  
 ・nfcpy  
+・Python-usb  
   
 nfcpyについては次をご覧下さい。[nfcpy/nfcpy](https://github.com/nfcpy/nfcpy)  
     
