@@ -12,12 +12,18 @@
 nfcpyについては次をご覧下さい。[nfcpy/nfcpy](https://github.com/nfcpy/nfcpy)  
     
 インストールを行うにはコンソール上(端末)で  
-`apt install python-usb`
+`apt install python-usb`  
 `pip install nfcpy`
   
 この2つのコマンドを実行することでインストールが行えます。  
+または、ライブラリインストールツール(install_library.sh)をご利用ください。  
+まず、ライブラリインストールツールに実行権限を付与してください。  
+`chmod +x install_library.sh`  
+続いて、ツールを起動します。  
+`./install_library.sh`  
+あとは画面の指示に従ってインストールを進めてください。  
   
-使用を開始する前に、カードの情報を登録する必要があります。  
+続いて、使用を開始する前に、カードの情報を登録する必要があります。  
 ## イレブンバンド、イレブンライセンスなどのType2規格のチップを用いる場合
 1.cardload.pyをroot権限で実行し、カードリーダーにイレブンバンド(NFCチップ)をかざしてください。  
 2.ID=XXXXXXXXXXXXXのXの部分をメモしてください。  
